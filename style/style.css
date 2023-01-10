@@ -3,13 +3,14 @@ h1{
     border-bottom: 2px solid saddlebrown;
 }
 .calender{
-    
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
 }
 .month-and-date{
     border-radius: 5px;
     padding: 20px;
     background-color: rgba(2, 65, 65, 0.124);
-    width: 30%;
 }
 .month{
     display: grid;
@@ -36,3 +37,8 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.holy-day{
+    color: red;
+    background-color: rgb(0, 255, 81);
+}
+/* holy-day */
