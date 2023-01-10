@@ -2,9 +2,37 @@ h1{
     text-align: center;
     border-bottom: 2px solid saddlebrown;
 }
+.calender{
+    
+}
+.month-and-date{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(2, 65, 65, 0.124);
+    width: 30%;
+}
 .month{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    width: 30%;
-    height: 200px;
+    gap: 5px;
+}
+.day{
+    background-color: rgba(11, 1, 47, 0.712);
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 25px;
+    height: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
